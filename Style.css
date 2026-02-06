@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+ --text: #242424;
+ --font: 'Montserrat', sans-serif;
+}
+
+.corpo {
+    background: linear-gradient(#b6cbc9);
+}
+
+.perfil {
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.img_perfil {
+    border: 0.3em solid #242424;
+    border-radius: 50%;
+    width: 9em;
+
+}
+
+.meu_nome {
+    color: var(--text);
+    font-family: var(--font);
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.texto {
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    padding: 3em 0 0 0;
+}
+
+.botao {
+    background-color: #242424;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin: 10px 0;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    display: flex; /* Para alinhamento logo + texto */
+    align-items: center;
+    gap: 10px;;
+}
+
+.botao_img {
+    width: 30px;   /* Icone */
+    height: 30px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    margin-top: 15em;
+}
