@@ -7,6 +7,8 @@
 
 .corpo {
     background: linear-gradient(#b6cbc9);
+    overflow: hidden; /* Evita scroll indesejado */
+    height: 100vh; /* Garante que o corpo ocupe toda a altura da tela */
 }
 
 .perfil {
@@ -70,5 +72,5 @@
 .rodape {
     display: flex;
     justify-content: center;
-    margin-top: 15em;
+    margin-top: 3em;
 }
