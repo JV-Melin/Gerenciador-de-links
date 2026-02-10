@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+</style>    
 
 :root {
  --text: #242424;
  --font: 'Montserrat', sans-serif;
+ --font2: 'Cinzel', serif;
 }
 
 .corpo {
     background: linear-gradient(#b6cbc9);
-    overflow: hidden; /* Evita scroll indesejado */
+    overflow: hidden; /* Tirar scroll */
     height: 100vh; /* Garante que o corpo ocupe toda a altura da tela */
 }
 
@@ -37,6 +42,7 @@
 
 .texto {
     color: var(--text);
+    font-family: var(--font2) ;
     display: flex;
     justify-content: center;
     font-size: 1.2em;
@@ -61,11 +67,12 @@
     font-size: 1.2em;
     display: flex; /* Para alinhamento logo + texto */
     align-items: center;
-    gap: 10px;;
+    gap: 10px;
+    width: 100px;
 }
 
 .botao_img {
-    width: 30px;   /* Icone */
+    width: 30px;   /* Icones */
     height: 30px;
 }
 
