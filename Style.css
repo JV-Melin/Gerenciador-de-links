@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-<style>
+</style>
 
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 </style>    
@@ -58,7 +58,7 @@
 }
 
 .botao {
-    background-color: #242424;
+    background-color: #171717;
     color: #ffffff;
     padding: 10px 20px;
     margin: 10px 0;
@@ -66,9 +66,11 @@
     border-radius: 5px;
     font-size: 1.2em;
     display: flex; /* Para alinhamento logo + texto */
-    align-items: center;
+    /* align-items: baseline; */ /* Alinha o texto com a parte inferior do ícone */
+    align-items: center; /* Alinha o texto ao centro do ícone */ /* o linkedin fico uma merda mais vai fica assim */
     gap: 10px;
     width: 100px;
+    position: relative;
 }
 
 .botao_img {
@@ -81,3 +83,6 @@
     justify-content: center;
     margin-top: 3em;
 }
+
+
+/* Nao gostei desse genrenciador de links porem eu fiz ele o mais rapido possivel e sem fica adiconando muita coisa. */
